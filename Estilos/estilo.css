@@ -1,0 +1,137 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Barra de navegación*/
+
+.nav-bar {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5em;
+    width: 100vw;
+    position:fixed;
+    z-index:50;
+}
+
+.nav-bar__ul{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    list-style: none;
+    background-color:dodgerblue;
+}
+
+.nav-bar__li {    
+    align-content:center;
+    text-align: center;
+    height: 70px;
+    width:150px;
+    background-color: inherit;
+    
+    transition: background-color .5s;
+}
+
+.nav-bar__li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar__li:hover{
+    background-color: deepskyblue;
+    border-bottom: 3px solid blue;
+}
+
+.nav-bar__li:active{
+    background-color: darkcyan;
+}
+
+/*Slider de fotos*/
+.lista-fotos, lista-menu{
+    list-style:none;
+}
+
+.lista-fotos{
+    position:relative;
+    width: 100vw;
+    height: 800px;
+}
+
+.lista-fotos li{
+    position: absolute;
+    left:0;
+    top:70px; /*Esto es para que arranque después de la barra de navegación*/
+    opacity:0;
+    width:inherit;
+    height:inherit;
+    background-color: cornflowerblue;
+    transition: opacity .5s;
+}
+
+.lista-fotos li img{
+    width:100%;
+    height: 800px;
+    object-fit: cover;
+}
+
+.lista-fotos li:first-child{
+    opacity: 1;
+}
+
+.lista-menu{
+    text-align: center;
+    margin: 20px;
+    position: relative;
+}
+
+.lista-menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.lista-menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: dodgerblue;
+    width:30px;
+    height:30px;
+    font-size: 20px;
+    border-radius:100%;
+    text-align: center;
+    align-content: center;
+}
+
+.lista-fotos li:target{
+    opacity:1;
+}
+
+/*Footer*/
+footer {
+    background-color: #262626;
+    color: white;
+    height:200px;
+    display: flex;
+}
+
+footer div{
+    display: inline-block;
+    outline: 3px solid white; /*Debug*/
+}
+
+.contact-section {
+    position: absolute;
+    font-size: 1.5em;
+    height:160px;
+    padding: 15px;
+}
+
+.legal-section{
+    position:absolute;
+    width:100vw;
+    text-align: center;
+    
+}
+
+.newsletter-form {
+    padding: 15px;
+    position: absolute;
+    font-size: 1.5em;
+    right: 0;
+}
