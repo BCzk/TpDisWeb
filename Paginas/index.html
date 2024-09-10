@@ -4,6 +4,7 @@
 <head>
     <!-- Titulo de pestaña -->
     <title>BRISA</title>
+    <link rel="icon" href="../Recursos/IsotipoBrisaPH.ico" />
 
     <!-- Etiquetas meta -->
     <meta charset="utf-8" />
@@ -16,6 +17,7 @@
     <div class="contenedor">
         <!-- Barra de navegación -->
         <nav class="nav-bar">
+            <a href="index.html" class="nav-bar__logo"><img src="../Recursos/BrisaLogo.png"></a>
             <ul class="nav-bar__ul">                
                 <li class="nav-bar__li"><a href="#">Home</a></li>
                 <li class="nav-bar__li"><a href="#">Games</a></li>
@@ -25,40 +27,86 @@
                 <li class="nav-bar__li"><a href="#">Work with us</a></li>
             </ul>
         </nav>
-        <!-- Slider de fotos (Novedades) -->
-        <div class="slider-fotos">
-            <ul class="lista-fotos">
-                <li id="slide1"><img src="../Recursos/ImagenPlaceholder.png" /></li>
-                <li id="slide2"><img src="../Recursos/BrisaLogo.png" /></li>
-                <li id="slide3"><h2>Me quedé sin imágenes para poner</h2></li>
-            </ul>
-            <ul class="lista-menu">
-                <li><a href="#slide1">1</a></li>
-                <li><a href="#slide2">2</a></li>
-                <li><a href="#slide3">3</a></li>
-            </ul>
-        </div>
+        <main>
+            <!-- Slider de fotos (Novedades) -->
+            <div class="slider-fotos">
+                <ul class="lista-fotos">
+                    <li id="slide1"><img src="../Recursos/ImagenPlaceholder.png" /></li>
+                    <li id="slide2"><img src="../Recursos/BrisaLogo.png" /></li>
+                    <li id="slide3"><h2>Me quedé sin imágenes para poner</h2></li>
+                </ul>
+                <ul class="lista-menu">
+                    <li><a href="#slide1">1</a></li>
+                    <li><a href="#slide2">2</a></li>
+                    <li><a href="#slide3">3</a></li>
+                </ul>
+            </div>
+            <!-- Some games -->
+            <div class="games-section">
+                <div class="gs__title-section">
+                    <h1>Games</h1>
+                    <a href="#"><h2>See more!</h2></a>
+                </div>
+                <div class="gs__article-section">
+                    <a href="#">
+                        <article class="game-article">
+                            <img src="../Recursos/BrisaLogo.png" />
+                            <h2>Game</h2>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="game-article">
+                            <img src="../Recursos/BrisaLogo.png" />
+                            <h2>Game</h2>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="game-article">
+                            <img src="../Recursos/BrisaLogo.png" />
+                            <h2>Game</h2>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="game-article">
+                            <img src="../Recursos/BrisaLogo.png" />
+                            <h2>Game</h2>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="game-article">
+                            <img src="../Recursos/BrisaLogo.png" />
+                            <h2>Game</h2>
+                        </article>
+                    </a>
+                </div>
+            </div>
+        </main>
+        <!-- Footer -->
         <footer>
-            <div class="contact-section">
-                <h2>Contacto</h2>
-                brisa.pitch@gmail.com
-                <br />
-                brisa.soporte@gmail.com
-                <br />
-                +54 9 11 xxxx-xxxx
+            <div class="footer__row1">
+                <div class="contact-section">
+                    <h2>Contact</h2>
+                    brisa.pitch@gmail.com
+                    <br />
+                    brisa.support@gmail.com
+                    <br />
+                    +54 9 11 xxxx-xxxx
+                </div>
+                <div class="newsletter-form">
+                    <h2>Newsletter</h2>
+                    Subscribe with your email to receive the hottest news about or future releases and other projects beforehand.
+                    <form>
+                        <input type="email" />
+                        <button>Subscribe</button> 
+                    </form>
+                </div>
             </div>
-            <div class="newsletter-form">
-                <h2>Recibí las últimas noticias</h2>
-                Suscribite con tu email para recibir noticias sobre nuestros próximos lanzamientos antes que nadie.
-                <form>
-                    <input type="email" />
-                    <button>Suscribirse</button> 
-                </form>
-            </div>
-            <div class="legal-section">
-                ©2024 Brisa. Todos los derechos reservados.
-                <br />
-                Dirección legal: Ejemplo 1234
+            <div class="footer__row2">
+                <div class="legal-section">
+                    ©2024 Brisa. All rights reserved.
+                    <br />
+                    Billing address: Example 1234
+                </div>
             </div>
         </footer>
     </div>
