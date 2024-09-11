@@ -1,0 +1,55 @@
+﻿/*Dejo esto acá porque no entiendo que pasa*/
+html{
+    overflow-x: hidden;
+}
+
+/*Barra de navegación*/
+
+.nav-bar {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5em;
+    width: 100vw;
+    position: fixed;
+    z-index: 50;
+}
+
+h1, h2 {
+    font-family: "Raleway", sans-serif;
+}
+
+.nav-bar__logo {
+    position: absolute;
+    width: 150px;
+    padding: 10px;
+}
+
+.nav-bar__ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: dodgerblue;
+}
+
+.nav-bar__li {
+    align-content: center;
+    text-align: center;
+    height: 70px;
+    width: 150px;
+    background-color: inherit;
+    transition: background-color .5s;
+}
+
+.nav-bar__li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar__li:hover {
+    background-color: deepskyblue;
+    border-bottom: 3px solid blue;
+}
+
+.nav-bar__li:active {
+    background-color: darkcyan;
+}

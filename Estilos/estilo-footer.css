@@ -1,0 +1,33 @@
+﻿/*Footer*/
+
+footer {
+    background-color: #262626;
+    color: white;
+    height: 180px;
+}
+
+.footer__row1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__row1 div {
+    width: 50%;
+    font-size: 1.1em;
+    padding-top: 15px;
+}
+
+.contact-section {
+    text-align: right;
+    padding-right: 2em;
+}
+
+.newsletter-form {
+    padding-left: 2em;
+}
+
+.legal-section {
+    width: 100vw;
+    text-align: center;
+    padding: 15px;
+}
