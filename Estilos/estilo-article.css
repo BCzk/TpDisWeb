@@ -1,0 +1,67 @@
+﻿header {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    height: 150px;
+    width: 100vw;
+    background-color: darkblue;
+    color: white;
+    position: fixed;
+}
+header img{
+    height:30px;
+    width: auto;
+    padding-right: 30px;
+}
+
+header h1{    
+    display: inline-block;
+    font-size: 3em;
+}
+header h2{        
+    display: inline-block;
+    font-size: 2em;
+}
+
+main{
+    background-color: dodgerblue;
+    width: 100vw;
+}
+
+.page-content{
+    padding-top: 180px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.mediaplayer-section {
+    width: 900px;
+    height: 450px;
+    display: inline-block;
+    margin-right: 50px;
+    outline: 2px solid white;
+}
+
+.details-section {
+    outline: 2px solid white;
+    display: inline-block;
+    width: 300px;
+    height: auto;
+}
+
+.link-button{
+    text-decoration: none;
+    display: block;    
+    text-align: center;
+    align-content: center;
+    margin: 10px auto;
+    width: 80%;
+    height: 60px;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;    
+}
+
+.description-section{
+    outline: 2px solid white;
+}
