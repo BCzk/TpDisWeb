@@ -1,0 +1,52 @@
+﻿header {
+    padding-top: 50px; /*Para que arranque después de la barra de navegación*/
+    padding-bottom: 20px;
+    padding-left: 70px;
+    height: 150px;
+    width: 100vw;
+    background-color: darkblue;
+    color: white;
+    position: fixed;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+#news {
+    padding: 0 7%;
+    padding-top: 160px;
+    padding-bottom: 10px;
+    background-color: dodgerblue;
+}
+
+#news a{
+    text-decoration: none;
+}
+
+.news-article{
+    padding: 20px;
+    color: black;
+}
+
+.news-article p{
+    font-size: 1.1em;
+}
+
+.title-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title-section h3, h6{
+    align-content: center;   
+}
+
+.title-section h3{
+    font-size: 2em;
+}
+
+.title-section h6{
+    padding: 5px;
+    font-size: 1.3em;
+}
