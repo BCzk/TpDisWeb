@@ -34,19 +34,27 @@ main{
     padding-right: 5%;
 }
 
+.page-content__row1{
+    display:flex;
+    justify-content: space-evenly;
+}
+
 .mediaplayer-section {
     width: 900px;
     height: 450px;
+    flex-shrink: 0;
     display: inline-block;
     margin-right: 50px;
-    outline: 2px solid white;
+    outline: 2px solid white;    
 }
 
 .details-section {
     outline: 2px solid white;
     display: inline-block;
-    width: 300px;
+    width: 350px;
     height: auto;
+    flex-shrink: 0;
+    text-align: justify;
 }
 
 .link-button{
@@ -63,5 +71,8 @@ main{
 }
 
 .description-section{
+    width: 100%;
+    padding: 40px;
+    text-align:justify;
     outline: 2px solid white;
 }

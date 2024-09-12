@@ -38,11 +38,11 @@ h1, h2 {
     width: 150px;
     background-color: inherit;
     transition: background-color .5s;
+    color:white;
 }
 
-.nav-bar__li a {
+.nav-bar__ul a {
     text-decoration: none;
-    color: white;
 }
 
 .nav-bar__li:hover {
