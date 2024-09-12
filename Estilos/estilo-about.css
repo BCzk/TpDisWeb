@@ -1,3 +1,9 @@
 ﻿body
 {
+
+}
+.title {
+    position: absolute;
+    left: 0;
+    top: 70px; /*Esto es para que arranque después de la barra de navegación*/
 }
