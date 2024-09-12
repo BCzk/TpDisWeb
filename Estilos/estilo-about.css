@@ -1,6 +1,6 @@
 ﻿.main {
     padding-top: 100px; /*Esto es para que arranque después de la barra de navegación*/
-    outline: 2px solid black;
+    /*outline: 2px solid black;*/
     font-family: "Raleway", sans-serif;
     width: 100vw;
 }
@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     height: auto;
-    outline: 2px solid red;
+    /*outline: 2px solid red;*/
     width: 100vw;
 }
 .about {
@@ -16,21 +16,58 @@
     text-align: center;
     padding: 50px;
     flex-shrink:0;
-    border-right:2px solid blue;
+    /*border-right:2px solid blue;*/
 }
 .history {
     width: 50%;
     text-align: center;
     padding: 50px;
     flex-shrink: 0;
-    border-left: 2px solid blue;
+    /*border-left: 2px solid blue;*/
 }
-
-.philosophy{
+.philosophy {
     width: 100vw;
     height: auto;
-    text-align:center;
+    text-align: center;
     align-content: center;
-    padding: 50px;
-    outline: 2px solid black;
+    padding-top: 25px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 50px;
+    /*outline: 2px solid black;*/
+}
+.team {
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    align-content: center;
+    padding-top: 25px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 50px;
+    /*outline: 2px solid black;*/
+}
+.members{
+    display: flex;
+    justify-content: center;
+    /*outline: 2px solid green;*/
+}
+article {
+    width: 10vw;
+    /*outline: 2px solid black;*/
+}
+.img1{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.img2 {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.img3 {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
 }
