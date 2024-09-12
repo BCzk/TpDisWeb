@@ -1,0 +1,49 @@
+﻿body
+{
+}
+
+header {
+    padding-top: 50px; /*Para que arranque después de la barra de navegación*/
+    padding-bottom: 20px;
+    padding-left: 70px;
+    height: 150px;
+    width: 100vw;
+    background-color:darkblue;
+    color: white;
+    position: fixed;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+.work-section {
+    padding: 0 5%;
+    padding-top: 150px;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.work-article {
+    margin-left: 20px;
+    width: 40em;
+    height: 20em;
+    border: 10px inset black;
+    border-radius: 1%;
+    margin: 15px;
+    background-color: lavender;
+    text-align: center;
+}
+
+.work-article h1 {
+    margin-top: 8px;
+    
+}
+
+.work-article hr {
+    margin-bottom: 32px;
+    border:4px inset black;
+    border-radius: 1%;
+    
+}
