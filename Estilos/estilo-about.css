@@ -1,9 +1,36 @@
-﻿body
-{
-
+﻿.main {
+    padding-top: 100px; /*Esto es para que arranque después de la barra de navegación*/
+    outline: 2px solid black;
+    font-family: "Raleway", sans-serif;
+    width: 100vw;
 }
-.title {
-    position: absolute;
-    left: 0;
-    top: 70px; /*Esto es para que arranque después de la barra de navegación*/
+.about-history{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    outline: 2px solid red;
+    width: 100vw;
+}
+.about {
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+    flex-shrink:0;
+    border-right:2px solid blue;
+}
+.history {
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+    flex-shrink: 0;
+    border-left: 2px solid blue;
+}
+
+.philosophy{
+    width: 100vw;
+    height: auto;
+    text-align:center;
+    align-content: center;
+    padding: 50px;
+    outline: 2px solid black;
 }
