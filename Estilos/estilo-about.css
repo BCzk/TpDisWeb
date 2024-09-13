@@ -25,7 +25,7 @@ header h1 {
     width: 100vw;
 }
 .about {
-    width: 50%;
+    width: 40%;
     text-align: center;
     margin-top: 50px;
     padding-left: 50px;
@@ -35,7 +35,7 @@ header h1 {
     border-right: 1px solid grey;
 }
 .history {
-    width: 50%;
+    width: 40%;
     text-align: center;
     margin-top: 50px;
     padding-left: 50px;
