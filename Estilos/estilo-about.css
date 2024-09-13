@@ -1,5 +1,18 @@
-﻿.main {
-    padding-top: 100px; /*Esto es para que arranque después de la barra de navegación*/
+﻿header {
+    padding-top: 50px; /*Para que arranque después de la barra de navegación*/
+    padding-bottom: 20px;
+    padding-left: 70px;
+    height: 150px;
+    width: 100vw;
+    background-color: darkblue;
+    color: white;
+    position: fixed;
+}
+header h1 {
+    font-size: 3em;
+}
+.main {
+    padding-top: 125px; /*Esto es para que arranque después de la barra de navegación*/
     /*outline: 2px solid black;*/
     font-family: "Raleway", sans-serif;
     width: 100vw;
@@ -14,16 +27,26 @@
 .about {
     width: 50%;
     text-align: center;
-    padding: 50px;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
     flex-shrink:0;
-    /*border-right:2px solid blue;*/
+    border-right: 1px solid grey;
 }
 .history {
     width: 50%;
     text-align: center;
-    padding: 50px;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    /*padding: 50px;*/
     flex-shrink: 0;
     /*border-left: 2px solid blue;*/
+}
+.hbar{
+    width: 75vw;
 }
 .philosophy {
     width: 100vw;
