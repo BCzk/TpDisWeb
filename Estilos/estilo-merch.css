@@ -33,14 +33,14 @@ header h1{
     border: 10px inset black;
     border-radius: 5%;    
     margin: 15px;
-    background-color: fuchsia; /*Debug*/
+    background-color: black;
 }
 
 .merch-article img {
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
     height: 80%;
-    object-fit: cover;
+    width: 100%;
 }
 
 .merch-article h2 {
