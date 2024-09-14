@@ -4,19 +4,19 @@
     padding-left: 70px;
     height: 150px;
     width: 100vw;
-    background-color:darkblue;
-    color: white;
+    background-color: #a51313;
+    color: #fff;
     position: fixed;
+    z-index: 200;
 }
 
 header h1 {
     font-size: 3em;
 }
 
-.main {
-    padding-top: 100px;
-    font-family: "Raleway", sans-serif;
-    width: 80vw;
+main {    
+    background-color: #3d3d3d;
+    color: #fff;
 }
 
 .work-section {
@@ -35,13 +35,16 @@ header h1 {
     padding-left: 150px;
     padding-bottom: 50px;
     flex-shrink: 0;
-    border-right: 1px solid grey;
+    border-right: 1px solid #808080;
 }
 
 .wa__title {
     width: 100%;
-    border: inset black 5px;
+    border: inset #000 3px;
+    background-color: #a51313;
+    color: #fff;
     border-radius: 2%;
+    padding: 10px;
 }
 
 .jobs-section {
@@ -51,17 +54,22 @@ header h1 {
 }
 
 .jobs-section h4 {
+    background-color: #a51313;
+    color: #fff;
     width: 25%;
-    border: inset black 3px;
+    border: inset #000 3px;
     border-radius: 2%;
     padding-top:10px;
     padding-bottom:10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .generic-message-section {
+    background-color: #a51313;
+    color: #fff;
     margin-top: 30px;
-    border: inset black 3px;
+    border: inset #000 3px;
+    padding: 10px;
 }
 
 
@@ -74,39 +82,77 @@ header h1 {
     padding-left: 50px;
     padding-bottom: 50px;
     flex-shrink: 0;
-    border-right: 1px solid grey;
+    border-right: 1px solid #808080;
 }
 
 
 .pa__title {
     width: 100%;
-    border: inset black 5px;
+    border: inset #000 5px;
     border-radius: 2%;
+    background-color: #a51313;
+    color: #fff;
+    padding: 10px;
 }
 
 .pitch-article form h4 {
     width: 100%;
     margin-top: 20px;
-    border: inset black 3px;
+    border: inset #000 3px;
     border-radius: 2%;
+    background-color: #a51313;
+    color: #fff;
+    padding: 5px;
 }
 
 .pitch-article form input {
     width: 100%;
+    /*background-color: #4b0000;
+    color: white;*/
     margin-top: 10px;
+    background-color: #fff;
+    transition: background-color .5s;
+}
+
+.pitch-article input:hover {
+    background-color: #d7d4d4;
+}
+
+.pitch-article input:focus {
+    background-color: #fff;
 }
 
 .pitch-article textarea {
     width: 100%;
     margin-top: 10px;
     height: 100px;
+    background-color: #fff;
+    transition: background-color .5s;
 }
 
+.pitch-article textarea:hover {
+    background-color: #d7d4d4;
+}
+
+.pitch-article textarea:focus {
+    background-color: #fff;
+}
+
+
 .pitch-article form button {
-    width: 100%;
+    width: 20%;    
     margin-top: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: inset black 3px;
+    padding: 20px;
+    border: inset #000 3px;
+    background-color: #bb1919;
+    color: #fff;
     border-radius: 2%;
+    transition: background-color .5s;
+}
+
+.pitch-article form button:hover {    
+    background-color: #850f0f;
+}
+.pitch-article form button:active {    
+    background-color: #570a0a;
 }

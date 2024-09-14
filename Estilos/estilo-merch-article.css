@@ -4,8 +4,8 @@
     padding-left: 30px;
     height: 150px;
     width: 100vw;
-    background-color: darkblue;
-    color: white;
+    background-color: #a51313;
+    color: #fff;
     position: fixed;
 }
 header img{
@@ -23,9 +23,10 @@ header h2{
     font-size: 2em;
 }
 
-main{
-    background-color: dodgerblue;
+main {
+    background-color: #3d3d3d;
     width: 100vw;
+    color: white;
 }
 
 .page-content{
@@ -45,7 +46,7 @@ main{
     height: 450px;
     flex-shrink: 0;
     margin-right: 50px;
-    background-color: black;
+    background-color: #000;
 }
 
 .mediaplayer-section img{
@@ -54,14 +55,14 @@ main{
     object-fit:contain;
 }
 
-.details-section {    
+.details-section {
     width: 350px;
     height: auto;
     flex-shrink: 0;
     text-align: justify;
-    background-color: #0c0e35;
-    border: 5px inset darkblue;
-    color: white;
+    background-color: #a51313;
+    border: 5px inset #680c0c;
+    color: #fff;
     font-size: 1.25em;
     padding: 10px 15px;
     display: flex;
@@ -69,15 +70,15 @@ main{
     justify-content: space-around;
 }
 
-.link-button{
+.link-button {
     text-decoration: none;
-    display: block;    
+    display: block;
     text-align: center;
     align-content: center;
     margin: 10px auto;
     width: 80%;
     height: 60px;
-    background-color: darkblue;
+    background-color: #ff0000;
     border-radius: 10px;
-    color: white;
+    color: #fff;
 }

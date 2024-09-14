@@ -7,6 +7,7 @@
     background-color: #a51313;
     color: white;
     position: fixed;
+    z-index:200;
 }
 
 header h1{

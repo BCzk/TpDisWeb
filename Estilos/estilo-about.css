@@ -4,24 +4,24 @@
     padding-left: 70px;
     height: 150px;
     width: 100vw;
-    background-color: darkblue;
-    color: white;
+    background-color: #a51313;
+    color: #fff;
     position: fixed;
+    z-index:200;
 }
 header h1 {
     font-size: 3em;
 }
 .main {
     padding-top: 125px; /*Esto es para que arranque después de la barra de navegación*/
-    /*outline: 2px solid black;*/
-    font-family: "Raleway", sans-serif;
     width: 100vw;
+    color: #fff;
+    background-color: #3d3d3d;
 }
 .about-history{
     display: flex;
     justify-content: center;
     height: auto;
-    /*outline: 2px solid red;*/
     width: 100vw;
 }
 .about {
@@ -32,7 +32,7 @@ header h1 {
     padding-right: 50px;
     padding-bottom: 50px;
     flex-shrink:0;
-    border-right: 1px solid grey;
+    border-right: 1px solid #d5d5d5;
 }
 .history {
     width: 40%;
@@ -41,9 +41,8 @@ header h1 {
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
-    /*padding: 50px;*/
     flex-shrink: 0;
-    /*border-left: 2px solid blue;*/
+    border-left: 1px solid #808080;
 }
 .hbar{
     width: 75vw;
@@ -57,7 +56,6 @@ header h1 {
     padding-left: 250px;
     padding-right: 250px;
     padding-bottom: 50px;
-    /*outline: 2px solid black;*/
 }
 .team {
     width: 100vw;
@@ -68,16 +66,13 @@ header h1 {
     padding-left: 250px;
     padding-right: 250px;
     padding-bottom: 50px;
-    /*outline: 2px solid black;*/
 }
 .members{
     display: flex;
     justify-content: center;
-    /*outline: 2px solid green;*/
 }
 article {
     width: 10vw;
-    /*outline: 2px solid black;*/
 }
 .img1{
     border-radius: 50%;

@@ -4,8 +4,8 @@
     padding-left: 70px;
     height: 150px;
     width: 100vw;
-    background-color: darkblue;
-    color: white;
+    background-color: #a51313;
+    color: #fff;
     position: fixed;
 }
 
@@ -17,7 +17,7 @@ header h1 {
     padding: 0 7%;
     padding-top: 160px;
     padding-bottom: 10px;
-    background-color: dodgerblue;
+    background-color: #3d3d3d;
 }
 
 #news a{
@@ -26,11 +26,11 @@ header h1 {
 
 .news-article{
     padding: 20px;
-    color: black;
 }
 
 .news-article p{
     font-size: 1.1em;
+    color: #fff;
 }
 
 .title-section{
@@ -39,7 +39,8 @@ header h1 {
 }
 
 .title-section h3, h6{
-    align-content: center;   
+    align-content: center;  
+    color: #d71414;
 }
 
 .title-section h3{
@@ -49,4 +50,12 @@ header h1 {
 .title-section h6{
     padding: 5px;
     font-size: 1.3em;
+}
+
+.news-article:hover{
+    background-color: #222222;
+}
+
+.news-article:active {
+    background-color: #100f0f;
 }
