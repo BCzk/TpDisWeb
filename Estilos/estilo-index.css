@@ -112,7 +112,7 @@
     height: 350px;
     border: 10px inset black;
     border-radius: 5%;    
-    background-color: fuchsia; /*Debug*/
+    background-color: black;
 }
 
 .game-article img{
