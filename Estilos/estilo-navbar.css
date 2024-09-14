@@ -1,6 +1,7 @@
 ﻿/*Dejo esto acá porque no entiendo que pasa*/
-html{
+html {
     overflow-x: hidden;
+    font-family: "Raleway", sans-serif;
 }
 
 /*Barra de navegación*/
@@ -11,10 +12,6 @@ html{
     width: 100vw;
     position: fixed;
     z-index: 50;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway", sans-serif;
 }
 
 .nav-bar__logo {
