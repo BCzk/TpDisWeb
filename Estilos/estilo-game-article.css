@@ -26,13 +26,14 @@ header h2{
 main {
     background-color: #3d3d3d;
     width: 100vw;
-    color: white;
+    color: white;    
 }
 
 .page-content{
     padding-top: 180px;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 50px;
 }
 
 .page-content__row1{
@@ -46,6 +47,7 @@ main {
     flex-shrink: 0;
     margin-right: 50px;
     background-color: #000;
+    border: 5px inset #808080;
 }
 
 .mediaplayer-section img{
@@ -82,10 +84,15 @@ main {
     color: #fff;
 }
 
-.description-section{
-    width: 100%;
+.description-section {
+    width: 80%;
     padding: 40px 80px;
-    text-align:justify;
+    text-align: justify;    
+    border: 5px inset #680c0c;
+    background-color: #808080;
+    margin-top:40px;
+    margin-left: 10%;
+    font-size: 1.2em;
 }
 
 .description-section ul{
