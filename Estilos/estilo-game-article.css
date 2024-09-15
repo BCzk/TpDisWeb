@@ -14,6 +14,14 @@ header img{
     padding-right: 30px;
 }
 
+header img:hover{
+    filter: brightness(.75);
+}
+
+header img:active{
+    filter: brightness(.5);
+}
+
 header h1{    
     display: inline-block;
     font-size: 3em;
