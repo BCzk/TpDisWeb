@@ -37,20 +37,21 @@ Alonzo Camila Aldana
 ## <a name="_gur5wgv8yk3e"></a>
 ### <a name="_zbt5iiwjegcf"></a>**Índice**
 
-[**Presentación del proyecto	3**](#_95kqk7oieot6)**
+[**Presentación del proyecto**](#_95kqk7oieot6)**
 
-[**Tema a desarrollar	3**](#_4slreu9wd00q)
+[**Tema a desarrollar**](#_4slreu9wd00q)
 
-[**Perfil del proyecto	3**](#_7iwmju9unr1r)
+[**Perfil del proyecto**](#_7iwmju9unr1r)
 
-[**Características visuales	4**](#_t47j68gzd416)
+[**Características visuales**](#_t47j68gzd416)
 
-[**Descripción del sitio web	5**](#_93c46tbpom7q)
+[**Descripción del sitio web**](#_93c46tbpom7q)
 
-[**Maquetación de algunas páginas	6**](#_dcty62kjicib)
+[**Maquetación de algunas páginas**](#_dcty62kjicib)
 
-[**Roles	8**](#_we47buq78tep)
-### <a name="_w7qi6eml9hq6"></a>**
+[**Roles**](#_we47buq78tep)
+
+### <a name="_w7qi6eml9hq6"></a>
 ## <a name="_95kqk7oieot6"></a>**Presentación del proyecto**
 1) Este proyecto corresponde al desarrollo de una página web de venta de videojuegos de una empresa publisher/developer de videojuegos ficticia. Contará principalmente con previews y secciones dedicadas a distintos artículos que una empresa de estas características podría mostrar en su página, además de distintas opciones de contacto, ya que diversos equipos de desarrollo tienden a acercarse a estas empresas para presentar y posiblemente vender sus juegos.
 1) La actividad principal de la empresa es la promoción y venta de videojuegos.
