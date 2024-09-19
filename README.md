@@ -37,7 +37,7 @@ Alonzo Camila Aldana
 ## <a name="_gur5wgv8yk3e"></a>
 ### <a name="_zbt5iiwjegcf"></a>**Índice**
 
-[**Presentación del proyecto**](#_95kqk7oieot6)**
+[**Presentación del proyecto**](#_95kqk7oieot6)
 
 [**Tema a desarrollar**](#_4slreu9wd00q)
 
