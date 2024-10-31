@@ -3,7 +3,7 @@
 footer {
     background-color: #262626;
     color: white;
-    height: 200px;
+    height: auto;
 }
 
 .footer__row1 {
@@ -11,28 +11,68 @@ footer {
     flex-wrap: wrap;
 }
 
-.footer__row1 div {
-    width: 50%;
+.footer__row1 div {    
     font-size: 1.1em;
-    padding-top: 15px;
+    padding-top: 1em;
 }
 
 .contact-section {
-    text-align: right;
     padding-right: 2em;
 }
 
 .newsletter-form {
     padding-left: 2em;
-    padding-right: 350px;
+    padding-right: 2em;
 }
 
-.newsletter-form form{
-    padding-top: 10px;
+.newsletter-form form {
+    padding-top: 0.8em;
 }
 
 .legal-section {
     width: 100vw;
     text-align: center;
-    padding: 15px;
+    padding: 1em;
 }
+
+@media only screen and (min-width: 600px) {
+    /*Mobile*/
+    .footer__row1 div {
+        width: 100%;
+        padding-bottom: 2em;
+        font-size: 1.5em;        
+        padding-left: 3em;
+    }
+    .contact-section {
+        text-align: center;
+    }
+
+    .newsletter-form{
+        text-align: center;
+    }
+
+    .legal-section{
+        font-size: 1.25em;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    /*Desktop*/
+    .footer__row1 div {
+        width: 50%;
+        font-size: 1.1em;
+        padding-bottom: 0em;
+        padding-left: 0em;
+    }
+
+    .contact-section {
+        text-align: right;
+    }
+
+    .newsletter-form {
+        text-align: left;
+        padding-left: 2em;
+        padding-right: 15em;
+    }
+}
+

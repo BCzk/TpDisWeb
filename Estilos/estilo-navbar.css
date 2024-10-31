@@ -10,18 +10,17 @@ html {
     width: 100vw;
     position: fixed;
     z-index: 300;
-    border-bottom: 2px solid #700e0e;
+    border-bottom: 0.1em solid #700e0e;
 }
 
 .nav-bar__logo {
     position: absolute;
-    width: 150px;
-    padding: 10px;
+    width: 6.5em;
+    padding: 0.6em;
 }
 
 .nav-bar__ul {
     display: flex;
-    justify-content: center;
     align-items: center;
     list-style: none;
     background-color: #a51313;
@@ -30,8 +29,8 @@ html {
 .nav-bar__li {
     align-content: center;
     text-align: center;
-    height: 70px;
-    width: 150px;
+    height: 3em;
+    width: 6.2em;
     background-color: inherit;
     transition: background-color .5s;
     color:white;
@@ -43,9 +42,23 @@ html {
 
 .nav-bar__li:hover {
     background-color: #700505;
-    border-bottom: 3px solid #ff0000;
+    border-bottom: 0.2em solid #ff0000;
 }
 
 .nav-bar__li:active {
     background-color: #2e0101;
+}
+
+@media only screen and (min-width: 600px) {
+    /*Mobile*/
+    .nav-bar__ul {
+        justify-content: right;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    /*Desktop*/
+    .nav-bar__ul {
+        justify-content: center;
+    }
 }
