@@ -106,6 +106,27 @@ main {
     padding-left: 1em;
 }
 
+#description-title {
+    text-decoration: none;
+}
+#other-title {
+    text-decoration: none;
+}
+#requirements-title {
+    text-decoration: none;
+}
+
+#description-title:hover{
+    text-decoration:underline;
+}
+#other-title:hover {
+    text-decoration: underline;
+}
+#requirements-title:hover {
+    text-decoration: underline;
+}
+
+
 @media only screen and (min-width: 600px) {
     /*Mobile*/
     .mediaplayer-section {

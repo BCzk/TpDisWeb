@@ -178,4 +178,33 @@ window.onload = () => {
     if (idToLoad) {
         updateContent(data, idToLoad);
     }
+
+    $("#description").hide();
+    $("#otherInfo").hide();
+    $("#requirements").hide();
 };
+
+$("#description-title").click(function () {
+    if (!$("#description").is(":visible")) {
+        $("#description").show(500);
+    }
+    else {
+        $("#description").hide(500);
+    }
+});
+$("#other-title").click(function () {
+    if (!$("#otherInfo").is(":visible")) {
+        $("#otherInfo").show(500);
+    }
+    else {
+        $("#otherInfo").hide(500);
+    }
+});
+$("#requirements-title").click(function () {
+    if (!$("#requirements").is(":visible")) {
+        $("#requirements").show(500);
+    }
+    else {
+        $("#requirements").hide(500);
+    }
+});
