@@ -10,19 +10,45 @@ var thirdImgHo = "../Recursos/Juegos/paranoid-hover.png";
 
 /* --- Mouse Enter --- */
 $(".lista-fotos").mouseenter(function () {
-/*    $("#img1").fadeOut(500, function () {*/
-        $("#img1").attr("src", firstImgHo);
-    //    $("#img1").load(function () { $("#img1").fadeIn(500); } );
-    //});
 
-    $("#img2").attr("src", secondImgHo);
-    $("#img3").attr("src", thirdImgHo);
+    /* --- Primera imagen --- */
+    $("#img1").stop(true, true).fadeOut(500, function () {
+        $("#img1").attr("src", firstImgHo);
+    });
+    $("#img1").stop(true, true).fadeIn(500);
+
+    /* --- Segunda imagen --- */
+    $("#img2").stop(true, true).fadeOut(500, function () {
+        $("#img2").attr("src", secondImgHo);
+    });
+    $("#img2").stop(true, true).fadeIn(500);
+
+    /* --- Tercera imagen --- */
+    $("#img3").stop(true, true).fadeOut(500, function () {
+        $("#img3").attr("src", thirdImgHo);
+    });
+    $("#img3").stop(true, true).fadeIn(500);
 });
 
 /* --- Mouse Leave --- */
 $(".lista-fotos").mouseleave(function () {
-    $("#img1").attr("src", firstImgOr);
-    $("#img2").attr("src", secondImgOr);
-    $("#img3").attr("src", thirdImgOr);
+
+    /* --- Primera imagen --- */
+    $("#img1").stop(true, true).fadeOut(500, function () {
+        $("#img1").attr("src", firstImgOr);
+    });
+    $("#img1").stop(true, true).fadeIn(500);
+
+    /* --- Segunda imagen --- */
+    $("#img2").stop(true, true).fadeOut(500, function () {
+        $("#img2").attr("src", secondImgOr);
+    });
+    $("#img2").stop(true, true).fadeIn(500);
+
+    /* --- Tercera imagen --- */
+    $("#img3").stop(true, true).fadeOut(500, function () {
+        $("#img3").attr("src", thirdImgOr);
+    });
+    $("#img3").stop(true, true).fadeIn(500);
 });
 
