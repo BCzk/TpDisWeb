@@ -1,19 +1,19 @@
 ﻿header {
-    padding-top: 50px; /*Para que arranque después de la barra de navegación*/
-    padding-bottom: 20px;
-    padding-left: 70px;
-    height: 150px;
+    padding-top: 3.2em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    height: 9.2em;
     width: 100vw;
     background-color: #a51313;
     color: #fff;
     position: fixed;
-    z-index:200;
+    z-index: 200;
 }
 header h1 {
     font-size: 3em;
 }
 .main {
-    padding-top: 125px; /*Esto es para que arranque después de la barra de navegación*/
+    padding-top:8em; /*Esto es para que arranque después de la barra de navegación*/
     width: 100vw;
     color: #fff;
     background-color: #3d3d3d;
@@ -21,71 +21,113 @@ header h1 {
 .about-history{
     display: flex;
     justify-content: center;
+    flex-wrap:wrap;
     height: auto;
     width: 100vw;
 }
 .about {
     width: 40%;
-    text-align: center;
-    margin-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
+    text-align: center;    
     flex-shrink:0;
-    border-right: 1px solid #d5d5d5;
 }
 .history {
     width: 40%;
-    text-align: center;
-    margin-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
+    text-align: center;    
     flex-shrink: 0;
-    border-left: 1px solid #808080;
 }
-.hbar{
-    width: 75vw;
-}
+
 .philosophy {
     width: 100vw;
     height: auto;
     text-align: center;
-    align-content: center;
-    padding-top: 25px;
-    padding-left: 250px;
-    padding-right: 250px;
-    padding-bottom: 50px;
+    align-content: center;    
 }
 .team {
     width: 100vw;
     height: auto;
     text-align: center;
     align-content: center;
-    padding-top: 25px;
-    padding-left: 250px;
-    padding-right: 250px;
-    padding-bottom: 50px;
+    padding-top: 1em;
+    padding-bottom: 3em;
 }
 .members{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap:wrap;    
 }
-article {
-    width: 10vw;
-}
-.img1{
+
+article img{
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 10em;
+    height: 10em;
 }
-.img2 {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
+
+@media only screen and (min-width: 600px) {
+    /*Mobile*/
+    .about {
+        width: 100%;
+        margin-top: 3em;
+        padding-left: 5em;
+        padding-right: 5em;
+        font-size: 1.2em;
+    }
+
+    .history {
+        width: 100%;
+        margin-top: 1em;
+        padding-left: 5em;
+        padding-right: 5em;
+        font-size: 1.2em;
+    }
+    .philosophy {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 5em;
+        padding-right: 5em;
+        font-size: 1.2em;
+    }
+
+    .hbar {
+        width: 0;
+        position:fixed;
+        margin: 100vw; /*Para sacarlo del medio en la versión mobile*/
+    }
 }
-.img3 {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
+
+@media only screen and (min-width: 1300px) {
+    /*Desktop*/
+    .about {
+        width: 40%;
+        border-right: 1px solid #d5d5d5;
+        margin-top: 3em;
+        padding-left: 3em;
+        padding-right: 3em;
+        padding-bottom: 3em;
+        font-size: 1em;
+    }
+    .history {
+        width: 40%;
+        border-left: 1px solid #808080;
+        margin-top: 3em;
+        padding-left: 3em;
+        padding-right: 3em;
+        padding-bottom: 3em;
+        font-size: 1em;
+    }
+    .philosophy {
+        padding-left: 13em;
+        padding-right: 13em;
+        padding-top: 1em;
+        padding-bottom: 3em;
+        font-size: 1em;
+    }
+    .team {
+        padding-left: 13em;
+        padding-right: 13em;
+    }
+    .hbar {
+        width: 100%;
+        position: relative;
+        margin: 0;
+    }
 }
