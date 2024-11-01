@@ -25,3 +25,4 @@ $(".lista-fotos").mouseleave(function () {
     $("#img2").attr("src", secondImgOr);
     $("#img3").attr("src", thirdImgOr);
 });
+
