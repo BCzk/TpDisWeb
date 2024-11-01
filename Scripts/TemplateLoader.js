@@ -16,3 +16,12 @@ document.querySelectorAll('.load-merch-template').forEach(link => {
         window.location.href = '../Paginas/merch-template.html';
     });
 });
+
+document.querySelectorAll('.load-news-template').forEach(link => {
+    link.addEventListener('click', (event) => {
+        event.preventDefault();
+        const idToLoad = event.currentTarget.getAttribute("data-id");
+        localStorage.setItem('idToLoad', idToLoad);
+        window.location.href = '../Paginas/news-template.html';
+    });
+});
