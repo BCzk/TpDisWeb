@@ -81,7 +81,7 @@
                         <h4>Subject</h4>
                         <input type="text" id="form-subject" placeholder="Write the subject of the email here..." required />
                         <h4>Email</h4>
-                        <input type="email" id="form-email" placeholder="Write your email here..." required/>
+                        <input type="email" id="pitch-form-email" placeholder="Write your email here..." required />
                         <h4>Message</h4>
                         <textarea id="form-message" style="resize:none" placeholder="Write your message here..." required></textarea>
                         <button type="submit" id="form-submit-button">Send Email</button>
@@ -106,9 +106,9 @@
                 <div class="newsletter-form">
                     <h2>Newsletter</h2>
                     Subscribe with your email to receive the hottest news about our future releases and other projects beforehand.
-                    <form>
-                        <input type="email" />
-                        <button>Subscribe</button>
+                    <form id="subscribe-form">
+                        <input type="email" id="form-email" required />
+                        <button type="submit">Subscribe</button>
                     </form>
                 </div>
             </div>
@@ -122,5 +122,6 @@
         </footer>
     </div>
     <script src="../Scripts/pitch-form.js"></script>
+    <script src="../Scripts/newsletter-form.js"></script>
 </body>
 </html>
