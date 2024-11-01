@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="../Estilos/estilo-workwithus.css" type="text/css" />
     <link rel="stylesheet" href="../Estilos/estilo-navbar.css" type="text/css" />
     <link rel="stylesheet" href="../Estilos/estilo-footer.css" type="text/css" />
+
+    <!-- JQuery -->
+    <script src="../JQuery/jquery-3.7.1.min.js"></script>
 </head>
 <body>
     <div class="contenedor">
@@ -74,13 +77,13 @@
                     <div class="pa__title">
                         <h2>Pitch us your Game</h2>
                     </div>
-                    <form>
+                    <form id="pitch-form">
                         <h4>Subject</h4>
-                        <input type="text" id="form-subject" placeholder="Write the subject of the email here..." />
+                        <input type="text" id="form-subject" placeholder="Write the subject of the email here..." required />
                         <h4>Email</h4>
-                        <input type="email" id="form-email" placeholder="Write your email here..." />
+                        <input type="email" id="form-email" placeholder="Write your email here..." required/>
                         <h4>Message</h4>
-                        <textarea id="form-message" style="resize:none" placeholder="Write your message here..."></textarea>
+                        <textarea id="form-message" style="resize:none" placeholder="Write your message here..." required></textarea>
                         <button type="submit" id="form-submit-button">Send Email</button>
                     </form>
                 </article>
@@ -118,6 +121,6 @@
             </div>
         </footer>
     </div>
-
+    <script src="../Scripts/pitch-form.js"></script>
 </body>
 </html>
