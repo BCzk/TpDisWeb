@@ -10,7 +10,11 @@ var thirdImgHo = "../Recursos/Juegos/paranoid-hover.png";
 
 /* --- Mouse Enter --- */
 $(".lista-fotos").mouseenter(function () {
-    $("#img1").attr("src", firstImgHo);
+/*    $("#img1").fadeOut(500, function () {*/
+        $("#img1").attr("src", firstImgHo);
+    //    $("#img1").load(function () { $("#img1").fadeIn(500); } );
+    //});
+
     $("#img2").attr("src", secondImgHo);
     $("#img3").attr("src", thirdImgHo);
 });
