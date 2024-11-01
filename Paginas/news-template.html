@@ -10,10 +10,13 @@
     <meta charset="utf-8" />
 
     <!-- Links -->
-    <link rel="stylesheet" href="../Estilos/normalize.css" type="text/css" />    
+    <link rel="stylesheet" href="../Estilos/normalize.css" type="text/css" />
     <link rel="stylesheet" href="../Estilos/estilo-navbar.css" type="text/css" />
     <link rel="stylesheet" href="../Estilos/estilo-news-article.css" type="text/css" />
     <link rel="stylesheet" href="../Estilos/estilo-footer.css" type="text/css" />
+
+    <!-- JQuery -->
+    <script src="../JQuery/jquery-3.7.1.min.js"></script>
 </head>
 <body>
     <div class="contenedor">
@@ -55,7 +58,7 @@
                     <p id="info">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, lacus nec lobortis lacinia, eros orci vulputate elit, sit amet aliquet nisi urna ut mi. Nullam porta tellus et interdum egestas. Proin malesuada tellus vitae dolor tempus maximus. Fusce quam arcu, luctus non hendrerit at, ullamcorper nec libero. Phasellus ac ex sagittis, tincidunt ligula sit amet, molestie metus. Cras non sagittis metus. Cras vitae ipsum quis enim ultricies iaculis in nec mauris. Morbi ullamcorper lacus dictum orci efficitur eleifend. Vestibulum eu tellus fringilla, porta libero a, sagittis felis. Curabitur magna arcu, hendrerit ut ipsum ac, facilisis tincidunt erat. Aenean felis dolor, ultrices in condimentum sit amet, imperdiet a magna. Maecenas ut pulvinar sapien, ac laoreet dolor. Donec eu dignissim nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce non consectetur elit.
                     </p>
-                    <img src="" id="image"/>                    
+                    <img src="" id="image" />
                 </div>
             </div>
         </main>
@@ -76,9 +79,9 @@
                 <div class="newsletter-form">
                     <h2>Newsletter</h2>
                     Subscribe with your email to receive the hottest news about or future releases and other projects beforehand.
-                    <form>
-                        <input type="email" />
-                        <button>Subscribe</button>
+                    <form id="subscribe-form">
+                        <input type="email" id="form-email" required />
+                        <button type="submit">Subscribe</button>
                     </form>
                 </div>
             </div>
@@ -92,5 +95,6 @@
         </footer>
     </div>
     <script src="../Scripts/news-template.js"></script>
+    <script src="../Scripts/newsletter-form.js"></script>
 </body>
 </html>
