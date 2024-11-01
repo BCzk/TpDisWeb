@@ -1,17 +1,17 @@
 ﻿header {
-    padding-top: 50px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    height: 150px;
+    padding-top: 3.2em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    height: 9.2em;
     width: 100vw;
     background-color: #a51313;
     color: #fff;
     position: fixed;
 }
 header img{
-    height:30px;
+    height:1.9em;
     width: auto;
-    padding-right: 30px;
+    padding-right: 1.9em;
 }
 
 header img:hover{
@@ -38,24 +38,24 @@ main {
 }
 
 .page-content{
-    padding-top: 180px;
+    padding-top: 11.2em;
     padding-left: 5%;
     padding-right: 5%;
-    padding-bottom: 50px;
+    padding-bottom: 3em;
 }
 
 .page-content__row1{
     display:flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
-.mediaplayer-section {
-    width: 900px;
-    height: 450px;
+.mediaplayer-section {    
+    height: 50%;
     flex-shrink: 0;
-    margin-right: 50px;
+    margin-right: 3em;
     background-color: #000;
-    border: 5px inset #808080;
+    border: 0.25em inset #808080;
 }
 
 .mediaplayer-section img{
@@ -65,15 +65,14 @@ main {
 }
 
 .details-section {
-    width: 350px;
+    width: 25%;
     height: auto;
     flex-shrink: 0;
     text-align: justify;
     background-color: #a51313;
-    border: 5px inset #680c0c;
+    border: 0.25em inset #680c0c;
     color: #fff;
     font-size: 1.25em;
-    padding: 10px 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -84,25 +83,51 @@ main {
     display: block;    
     text-align: center;
     align-content: center;
-    margin: 10px auto;
+    margin: 0.5em auto;
     width: 80%;
-    height: 60px;
+    height: 3em;
     background-color: #ff0000;
-    border-radius: 10px;
+    border-radius: 0.5em;
     color: #fff;
 }
 
 .description-section {
     width: 80%;
-    padding: 40px 80px;
+    padding: 2em 4em;
     text-align: justify;    
-    border: 5px inset #680c0c;
+    border: 0.25em inset #680c0c;
     background-color: #808080;
-    margin-top:40px;
+    margin-top:2em;
     margin-left: 10%;
     font-size: 1.2em;
 }
 
 .description-section ul{
-    padding-left: 20px;
+    padding-left: 1em;
+}
+
+@media only screen and (min-width: 600px) {
+    /*Mobile*/
+    .mediaplayer-section {
+        width: 100%;
+    }
+
+    .details-section {
+        width: 80%;
+        margin-top: 2em;
+        padding: 1em 2em;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    /*Desktop*/
+    .mediaplayer-section {
+        width: 52%;        
+    }
+
+    .details-section {
+        width: 25%;
+        margin-top: 0;
+        padding: 0.5em 1em;
+    }
 }
