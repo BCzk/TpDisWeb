@@ -53,7 +53,7 @@ const data = [
         imageSrc: "../Recursos/Merch/libretastalkinggaze-merch.png",
         productType: "Notebook",
         description: "A blank notebook from the game 'Stalking Gaze'.",
-        price: "9.99"
+        price: "$9.99"
     }
 ];
 
